@@ -1,0 +1,25 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+[x-cloak] {
+    display: none;
+}
+
+@layer components {
+    .training-1 {
+        @apply bg-red-200;
+    }
+
+    .training-2 {
+        @apply bg-blue-200;
+    }
+
+    .training-3 {
+        @apply bg-green-200;
+    }
+
+    .training-4 {
+        @apply bg-yellow-200;
+    }
+}
